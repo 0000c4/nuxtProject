@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  @apply h-full;
+}
+
+@layer components {
+  .btn {
+    @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm text-white;
+  }
+
+  .inputForm {
+    @apply py-1 px-2 border rounded-md border-gray-300;
+  }
+
+  .source-text {
+    @apply text-[#bbbbbb] text-[0.75rem] text-center font-arial
+  }
+
+  .primary-bg {
+    @apply bg-[#F7F7FC];
+  }
+
+  .green_button {
+    @apply rounded-md py-2 px-3 text-white fill-white bg-green-700 hover:bg-[#D1FAE5] hover:text-green-700 hover:fill-green-700 transition-all
+  }
+}
